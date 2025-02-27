@@ -1,0 +1,182 @@
+/* Reset & General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #121212;
+    color: #fff;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+ul li {
+    margin: 0 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: cyan;
+    border: none;
+    cursor:pointer;
+}
+#home{
+    color:white;
+}
+#building{
+    width:100%;
+}
+#navbar{
+    background-color:#27bfd370;
+    border-radius: 25px;
+    margin-left:30%;
+    
+}
+#about-page{
+    background-color:#017b92;
+    overflow:hidden;
+    z-index:20;
+}
+#traveller{
+    width:100%;
+}
+#travel{
+    font-size:3vw;
+    margin-right:10%;
+    color:#47bac6;
+    font-weight: 700;
+}
+#travel2{
+    font-size:5vw;
+    margin-right:10%;
+    color:#07343d;
+    font-weight: 700;
+}
+#travel3{
+    font-size:5vw;
+    margin-right:10%;
+    color:#07343d;
+    font-weight: 700;
+}
+#travel4{
+    font-size:3vw;
+    margin-right:10%;
+    color:#47bac6;
+    font-weight: 700;
+}
+#book{
+    background-color: #017a9200;
+    margin-left:60%;
+    margin-right:10%;
+    text-wrap: nowrap;
+    border: 1px solid #0f5564;
+    padding: 10px 20px
+}
+#book:hover{
+    background-color: #0f5564;
+    color:#47bac6;
+}
+#about-us{
+    background-color:#0f5564;
+    color:#47bac6;
+}
+#about-head{
+    font-size:5vw;
+    margin-right:10%;
+    color:#47bac6;
+    font-weight: 700;
+}
+#services-page{
+    background: radial-gradient(#0c829b, #000000);
+    color:#47bac6;
+    overflow-y: hidden;
+}
+#services-head{
+    font-size:5vw;
+    margin-right:10%;
+    color:#0c829b;
+    font-weight: 700;
+}
+#contact-head{
+    font-size:5vw;
+    margin-right:10%;
+    color:#0c829b;
+    font-weight: 700;
+}
+#contact-page{
+    background: #0f5564;
+    color:#0c829b;
+    overflow-y: hidden;
+}
+#sign{
+    border: 1px solid #47bac6;
+    font-weight: 500;
+}
+#sign:hover{
+    background: #47bac6;
+    color:#fff
+}
+
+#cursor{
+    height:60px;
+    width:60px;  
+    background-image:url(4254fdfd038b54b524164d5caa39f777.png);
+    background-size:cover;
+    z-index:30;
+}
+/* Responsive */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+       background-color:#017b92;
+    }
+    ul {
+        flex-direction: column;
+       
+    }
+    #navbar{
+        background-color:#017b92;
+        color:black;
+        margin-left:0px;
+    }
+    #text-container{
+        margin-top:5px !important;
+    }
+    #traveller{
+        width:60vw;
+    }
+    #travel{
+        font-size:3vw;
+        margin-top: 5px !important;
+        color:#47bac6;
+    }
+    #travel2{
+        font-size:5vw;
+    }
+    #travel3{
+        font-size:5vw;
+    }
+    #travel4{
+        font-size:3vw;
+    }
+    #book{
+        font-size:8px;
+        background-color: #017a9200;
+        padding: 5px 10px
+    }
+    
+}
