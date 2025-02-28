@@ -39,7 +39,6 @@ gsap.from("#about-us #text-container2", {
         end: "top 40%",
         start: "top 70%", 
         scrub: 3, 
-        markers: true, 
     }
 });
 
@@ -53,7 +52,6 @@ gsap.from("#about-us #sitting", {
         start: "top 70%", 
         end: "top 40%",
         scrub: 3, 
-        markers: true, 
     }
 });
 
@@ -67,7 +65,6 @@ gsap.from("#services-page #multi", {
         start: "top 70%", 
         end: "top 40%",
         scrub: 3, 
-        markers: true, 
     }
 });
 
@@ -81,7 +78,6 @@ gsap.from("#services-page #service-text", {
         start: "top 70%", 
         end: "top 40%",
         scrub: 3, 
-        markers: true, 
     }
 });
 
@@ -95,7 +91,6 @@ gsap.from("#contact-page #contact-head", {
         start: "top 70%", 
         end: "top 40%",
         scrub: 3, 
-        markers: true, 
     }
 });
 
@@ -109,7 +104,6 @@ gsap.from("#contact-page form", {
         start: "top 70%", 
         end: "top 40%",
         scrub: 3, 
-        markers: true, 
     }
 });
 var tl = gsap.timeline();
