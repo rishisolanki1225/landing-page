@@ -86,7 +86,7 @@ gsap.from("#services-page #service-text", {
 });
 
 gsap.from("#contact-page #contact-head", {
-    y:-300,
+    y:-80,
     opacity: 0, 
     duration: 1.5, 
     scrollTrigger: {
